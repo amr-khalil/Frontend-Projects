@@ -1,10 +1,10 @@
 # App Name
-Counter App
+Hex Color Generator
 ## Demo
-https://amr-khalil.github.io/Frontend-Projects/counter-app/
+https://amr-khalil.github.io/Frontend-Projects/hex-color-generator
 
 ## Description
-This Project was implemented using xxxx. It is a xxxx.
+This Project was implemented using Html, CSS, Javascript. It is a generator for hexdecimal colors.
 
 ## Features
  - Vanilla JavaScript
@@ -12,4 +12,4 @@ This Project was implemented using xxxx. It is a xxxx.
 ## Images
 
 ### Main Screen
-<img src="img.png" alt="counter app" width="800"/>
+<img src="img.png" alt="hex color generator app" width="800"/>
