@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Impact, sans-serif;
+    color: #31316f;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #31316f;
+}
+
+.palindrome-box {
+    max-width: 400px;
+    min-height: 250px;
+    width: 70%;
+    height: 15%;
+    padding: 3rem;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow: -4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.input-text {
+    background-color: wheat;
+    outline: none;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border: 2px solid #31316f;
+    border-radius: 6px;
+    box-shadow: -2px 2px 2px 2px #31316f50;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn button {
+    font-size: 1rem;
+    padding: .5rem;
+    margin: 20px auto;
+    
+    width: 40%;
+    cursor: pointer;
+    background-color: #31316f;
+    color: wheat;
+    border: 2px solid #31316f;
+    border-radius: 6px;
+    box-shadow: -2px 2px 2px 2px #31316f50;
+    transition: all .3s;
+} 
+
+.btn button:hover, .close-btn:hover, a:hover {
+    filter: brightness(170%);
+}
+
+.btn button:active {
+    filter: brightness(150%);
+    transform: translateY(3px);
+    box-shadow: -1px 1px 1px 1px #31316f50;
+}
+
+
+.result {
+    font-size: 1.5rem;
+}
+
+i {
+    color: wheat;
+}
+
+.modal {
+    display: none;
+    z-index:1;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0%;
+    height: 100vh;
+    width: 100%;
+}
+
+.modal-content {
+    z-index:2;
+    position: relative;
+    max-width: 400px;
+    color: #31316f;
+    background-color: wheat;
+    top: 10%;
+    padding: 1.5rem;
+    outline: 0;
+    margin: 0 auto;
+    border-radius: 1rem;
+    animation: slide ease .8s;
+}
+
+.modal-content p{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+hr {
+ border: 1px dashed #31316f;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.close-btn {
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateY(-30rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
