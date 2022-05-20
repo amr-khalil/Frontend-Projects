@@ -1,7 +1,7 @@
 # Quote Generator
 
 ## Demo
-https://amr-khalil.github.io/Frontend-Projects/Quote-Generator/
+https://amr-khalil.github.io/Frontend-Projects/quote-generator/
 
 ## Description
 This Project was implemented using HTML, CSS and JavaScript. It is a Quote Generator.
