@@ -1,5 +1,5 @@
-# App Name
-Counter App
+# Counter App
+
 ## Demo
 https://amr-khalil.github.io/Frontend-Projects/counter-app
 

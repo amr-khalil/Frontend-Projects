@@ -1,4 +1,4 @@
-# App Name
+# Mini Insta
 
 ## Demo
 xxxxxx

@@ -43,6 +43,5 @@ function func(){
         setTimeout(()=>{tooltipText.innerHTML =  "Copy to clipboard";}, 2000)
     });
 }
-
 func();
 

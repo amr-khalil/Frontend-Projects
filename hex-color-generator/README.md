@@ -1,5 +1,4 @@
-# App Name
-Hex Color Generator
+#  Hex Color Generator
 ## Demo
 https://amr-khalil.github.io/Frontend-Projects/hex-color-generator
 
