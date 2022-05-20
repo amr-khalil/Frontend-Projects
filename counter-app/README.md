@@ -4,7 +4,7 @@ Counter App
 https://amr-khalil.github.io/Frontend-Projects/counter-app/
 
 ## Description
-This Project was implemented using xxxx. It is a xxxx.
+This Project was implemented using Html, CSS, Javascript. It is a counter app.
 
 ## Features
  - Vanilla JavaScript
